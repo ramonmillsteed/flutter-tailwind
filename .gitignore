@@ -1,0 +1,8 @@
+.DS_Store
+.dart_tool/
+.metadata
+.packages
+build/
+macos/
+pubspec.lock
+web/

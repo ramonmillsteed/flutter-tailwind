@@ -1,0 +1,29 @@
+name: tailwind
+publish_to: none
+version: 0.0.0+1
+environment:
+  sdk: ^2.15.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.0
+  sticky_headers: ^0.2.0
+dev_dependencies:
+  flutter_lints: ^1.0.0
+flutter:
+  assets:
+    - assets/icons/outline/
+    - assets/icons/solid/
+    - assets/logos/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Thin.otf
+        - asset: assets/fonts/Inter-ExtraLight.otf
+        - asset: assets/fonts/Inter-Light.otf
+        - asset: assets/fonts/Inter-Regular.otf
+        - asset: assets/fonts/Inter-Medium.otf
+        - asset: assets/fonts/Inter-SemiBold.otf
+        - asset: assets/fonts/Inter-Bold.otf
+        - asset: assets/fonts/Inter-ExtraBold.otf
+        - asset: assets/fonts/Inter-Black.otf
